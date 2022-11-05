@@ -37,13 +37,15 @@ const MovieDetails = () => {
   return (
     <>
       <MovieBackground bgImage={`url(${backgroundImg})`} />
-      <LinkBack
-        to={`${location.state.from.pathname}${location.state.from.search}`}
-        state={{ from: location }}
-        className="nav__back"
-      >
-        ← Back
-      </LinkBack>
+      {location.state && location.state.from && (
+        <LinkBack
+          to={`${location.state.from.pathname}${location.state.from.search}`}
+          state={{ from: location }}
+          className="nav__back"
+        >
+          ← Back
+        </LinkBack>
+      )}
       <MovieContainer>
         <img src={posterImg} alt="" width="300" />
         <div className="movie__details">
@@ -59,10 +61,10 @@ const MovieDetails = () => {
           </div>
           <div className="movie__additional">
             <nav>
-              <TabLink to="cast" state={{ from: location.state.from }}>
+              <TabLink to="cast" state={location.state ? { from: location.state.from } : null}>
                 Cast
               </TabLink>
-              <TabLink to="reviews" state={{ from: location.state.from }}>
+              <TabLink to="reviews" state={location.state ? { from: location.state.from } : null}>
                 Reviews
               </TabLink>
             </nav>

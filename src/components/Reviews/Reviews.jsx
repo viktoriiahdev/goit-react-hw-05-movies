@@ -14,15 +14,24 @@ const Reviews = () => {
 
   if (!reviews) return;
 
-  return (
-    <>
-      <ReviewsList>
-        {reviews.map(review => (
-          <Review key={review.id} review={review} />
-        ))}
-      </ReviewsList>
-    </>
-  );
+  if (reviews.length > 0)
+    return (
+      <>
+        <ReviewsList>
+          {reviews.map(review => (
+            <Review key={review.id} review={review} />
+          ))}
+        </ReviewsList>
+      </>
+    );
+  else
+    return (
+      <>
+        <ReviewsList>
+          <p>No reviews!</p>
+        </ReviewsList>
+      </>
+    );
 };
 
 export default Reviews;
