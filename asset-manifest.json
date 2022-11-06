@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-05-movies/static/css/main.40327f43.css",
-    "main.js": "/goit-react-hw-05-movies/static/js/main.36aae1e0.js",
-    "static/js/736.94448826.chunk.js": "/goit-react-hw-05-movies/static/js/736.94448826.chunk.js",
-    "static/js/466.20ce1f60.chunk.js": "/goit-react-hw-05-movies/static/js/466.20ce1f60.chunk.js",
-    "static/js/129.e20bc3cf.chunk.js": "/goit-react-hw-05-movies/static/js/129.e20bc3cf.chunk.js",
+    "main.css": "/goit-react-hw-05-movies/static/css/main.72ae4bc1.css",
+    "main.js": "/goit-react-hw-05-movies/static/js/main.a7cd216f.js",
+    "static/js/736.e130d2b7.chunk.js": "/goit-react-hw-05-movies/static/js/736.e130d2b7.chunk.js",
+    "static/js/466.287978af.chunk.js": "/goit-react-hw-05-movies/static/js/466.287978af.chunk.js",
+    "static/js/129.9d765dd1.chunk.js": "/goit-react-hw-05-movies/static/js/129.9d765dd1.chunk.js",
     "static/media/film-poster-placeholder.png": "/goit-react-hw-05-movies/static/media/film-poster-placeholder.71930b8646b6cccee0e4.png",
     "index.html": "/goit-react-hw-05-movies/index.html",
-    "main.40327f43.css.map": "/goit-react-hw-05-movies/static/css/main.40327f43.css.map",
-    "main.36aae1e0.js.map": "/goit-react-hw-05-movies/static/js/main.36aae1e0.js.map",
-    "736.94448826.chunk.js.map": "/goit-react-hw-05-movies/static/js/736.94448826.chunk.js.map",
-    "466.20ce1f60.chunk.js.map": "/goit-react-hw-05-movies/static/js/466.20ce1f60.chunk.js.map",
-    "129.e20bc3cf.chunk.js.map": "/goit-react-hw-05-movies/static/js/129.e20bc3cf.chunk.js.map"
+    "main.72ae4bc1.css.map": "/goit-react-hw-05-movies/static/css/main.72ae4bc1.css.map",
+    "main.a7cd216f.js.map": "/goit-react-hw-05-movies/static/js/main.a7cd216f.js.map",
+    "736.e130d2b7.chunk.js.map": "/goit-react-hw-05-movies/static/js/736.e130d2b7.chunk.js.map",
+    "466.287978af.chunk.js.map": "/goit-react-hw-05-movies/static/js/466.287978af.chunk.js.map",
+    "129.9d765dd1.chunk.js.map": "/goit-react-hw-05-movies/static/js/129.9d765dd1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40327f43.css",
-    "static/js/main.36aae1e0.js"
+    "static/css/main.72ae4bc1.css",
+    "static/js/main.a7cd216f.js"
   ]
 }
