@@ -4,7 +4,8 @@ const NavBar = styled.nav`
   padding: 40px;
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 20px;
+
   font-size: 30px;
   position: sticky;
   top: 0;
@@ -22,6 +23,16 @@ const NavBar = styled.nav`
     left: 0;
     right: 0;
     top: 0;
+
+    background-image: linear-gradient(to bottom, #000000, transparent 100%);
+
+    @media (min-width: 1024px) {
+      background-image: none;
+    }
+  }
+
+  @media (min-width: 768px) {
+    gap: 60px;
   }
 `;
 

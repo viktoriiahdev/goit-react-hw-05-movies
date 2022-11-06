@@ -43,11 +43,11 @@ const MovieDetails = () => {
           state={{ from: location }}
           className="nav__back"
         >
-          ← Back
+          ← <span>Back</span>
         </LinkBack>
       )}
       <MovieContainer>
-        <img src={posterImg} alt="" width="300" />
+        <img src={posterImg} alt="" />
         <div className="movie__details">
           <div className="movie__genres">
             {genres.map(({ id, name }) => (
@@ -59,19 +59,19 @@ const MovieDetails = () => {
           <div className="movie__overview">
             <p>{overview}</p>
           </div>
-          <div className="movie__additional">
-            <nav>
-              <TabLink to="cast" state={location.state ? { from: location.state.from } : null}>
-                Cast
-              </TabLink>
-              <TabLink to="reviews" state={location.state ? { from: location.state.from } : null}>
-                Reviews
-              </TabLink>
-            </nav>
-            <Suspense>
-              <Outlet />
-            </Suspense>
-          </div>
+        </div>
+        <div className="movie__additional">
+          <nav>
+            <TabLink to="cast" state={location.state ? { from: location.state.from } : null}>
+              Cast
+            </TabLink>
+            <TabLink to="reviews" state={location.state ? { from: location.state.from } : null}>
+              Reviews
+            </TabLink>
+          </nav>
+          <Suspense>
+            <Outlet />
+          </Suspense>
         </div>
       </MovieContainer>
     </>

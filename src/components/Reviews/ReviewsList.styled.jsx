@@ -9,6 +9,10 @@ const ReviewsList = styled.ul`
 
   max-height: 400px;
   overflow: scroll;
+
+  @media (min-width: 768px) {
+    max-height: calc(100% - 100px);
+  }
 `;
 
 export default ReviewsList;
